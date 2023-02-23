@@ -4,7 +4,7 @@
     "title": "Quiz 3 - Operators",
     "html_url": "https://learning.flatironschool.com/courses/6675/quizzes/44744",
     "mobile_url": "https://learning.flatironschool.com/courses/6675/quizzes/44744?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-1-operators-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-1-operators-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-1-operators-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-1-operators-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Note any answers that were marked incorrect,\nso you can study the relevant material and try this quiz again.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20000,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -87,30 +87,48 @@
       "quiz_group_id": null,
       "assessment_question_id": 524960,
       "position": null,
-      "question_name": "Short Answer Question",
-      "question_type": "short_answer_question",
-      "question_text": "<p>A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
+      "question_name": "Multiple Dropdowns Question",
+      "question_type": "multiple_dropdowns_question",
+      "question_text": "<p>The [a1] operator allows us to assign values to variables and the [a2] operator\nallows us to compare two numerical values for equality.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "6049",
-          "text": "algorithm",
+          "id": 9930,
+          "text": "=",
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "comments_html": "<p>Correct! The <code>=</code> is the assignment operator.</p>",
+          "weight": 100.0,
+          "blank_id": "a1"
         },
         {
-          "id": "4150",
-          "text": "Algorithm",
+          "id": 6185,
+          "text": "==",
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "comments_html": "<p>Not quite. The <code>==</code> is the equal operator.</p>",
+          "weight": 0.0,
+          "blank_id": "a1"
+        },
+        {
+          "id": 3799,
+          "text": "==",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>==</code> is the equal operator.</p>",
+          "weight": 100.0,
+          "blank_id": "a2"
+        },
+        {
+          "id": 4650,
+          "text": "=",
+          "comments": "",
+          "comments_html": "<p>Not quite. The <code>=</code> is the assignment operator in Java. It is important to note\nthat the <code>=</code> operator <strong>does not</strong> mean \"equals\" like it does in mathematics.\nIf we want to compare two numerical values, we need to use the <code>==</code> operator,\nwhich is the relational operator for equals.</p>",
+          "weight": 0.0,
+          "blank_id": "a2"
         }
       ],
       "variables": null,
@@ -126,64 +144,90 @@
       "quiz_group_id": null,
       "assessment_question_id": 524961,
       "position": null,
-      "question_name": "Multiple Choice Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "question_name": "Matching Question",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the arithmetic operator with the correct description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1796,
-          "text": "",
-          "html": "<p>O(n)</p>",
+          "id": 325,
+          "text": "+",
+          "left": "+",
+          "right": "Addition",
           "comments": "",
-          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
-          "weight": 100.0
+          "comments_html": "",
+          "match_id": 9045
         },
         {
-          "id": 7374,
-          "text": "",
-          "html": "<p>O(1)</p>",
+          "id": 7462,
+          "text": "-",
+          "left": "-",
+          "right": "Subtraction",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 8301
         },
         {
-          "id": 737,
-          "text": "",
-          "html": "<p>O(n²)</p>",
+          "id": 7346,
+          "text": "*",
+          "left": "*",
+          "right": "Multiplication",
           "comments": "",
-          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 7970
         },
         {
-          "id": 2449,
-          "text": "",
-          "html": "<p>O(log n)</p>",
+          "id": 9370,
+          "text": "/",
+          "left": "/",
+          "right": "Division",
           "comments": "",
-          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 1038
         },
         {
-          "id": 5101,
-          "text": "",
-          "html": "<p>I don't know</p>",
+          "id": 119,
+          "text": "%",
+          "left": "%",
+          "right": "Modulus",
           "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 6937
         }
       ],
       "variables": null,
       "formulas": null,
       "answer_tolerance": null,
       "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
+      "matches": [
+        {
+          "text": "Addition",
+          "match_id": 9045
+        },
+        {
+          "text": "Subtraction",
+          "match_id": 8301
+        },
+        {
+          "text": "Multiplication",
+          "match_id": 7970
+        },
+        {
+          "text": "Division",
+          "match_id": 1038
+        },
+        {
+          "text": "Modulus",
+          "match_id": 6937
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 304371,
@@ -191,56 +235,56 @@
       "quiz_group_id": null,
       "assessment_question_id": 524962,
       "position": null,
-      "question_name": "Multiple Answers Question",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an array of lunch menu items:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Since you're super hungry and super excited about lunch, use the <code>.each</code> method\nto enumerate over the array and output a string to the terminal with each lunch\nmenu item with an <code>\"!\"</code> at the end.</p>\n\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
+      "question_name": "Fill in Multiple Blanks Question",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<p>Given the following variable declarations and initializations:</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kt\">int</span> <span class=\"n\">firstNumber</span> <span class=\"o\">=</span> <span class=\"mi\">6</span><span class=\"o\">;</span>\n<span class=\"kt\">int</span> <span class=\"n\">secondNumber</span> <span class=\"o\">=</span> <span class=\"mi\">3</span><span class=\"o\">;</span>\n</code></pre></div>\n<p>The expression <code>firstNumber + secondNumber</code> would return the value: [answer1]</p>\n\n<p>The expression <code>firstNumber - secondNumber</code> would return the value: [answer2]</p>\n\n<p>The expression <code>firstNumber * secondNumber</code> would return the value: [answer3]</p>\n\n<p>The expression <code>firstNumber / secondNumber</code> would return the value: [answer4]</p>\n\n<p>The expression <code>firstNumber % secondNumber</code> would return the value: [answer5]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "8026",
-          "text": "",
+          "id": 7781,
+          "text": "9",
           "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
+          "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
+          "blank_id": "answer1"
         },
         {
-          "id": "5035",
-          "text": "",
+          "id": 7775,
+          "text": "3",
           "comments": "",
-          "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
-        },
-        {
-          "id": "2283",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
+          "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
+          "blank_id": "answer2"
         },
         {
-          "id": "4360",
-          "text": "",
+          "id": 2650,
+          "text": "18",
           "comments": "",
-          "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "answer3"
         },
         {
-          "id": "3169",
-          "text": "",
+          "id": 8638,
+          "text": "2",
           "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "answer4"
+        },
+        {
+          "id": 6910,
+          "text": "0",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "answer5"
         }
       ],
       "variables": null,
@@ -256,30 +300,32 @@
       "quiz_group_id": null,
       "assessment_question_id": 524963,
       "position": null,
-      "question_name": "True/False Question",
-      "question_type": "true_false_question",
-      "question_text": "<p>When we run <code>git add .</code>, <strong>all</strong> files that have been created or modified since\nthe last commit are staged and will be included in the next commit.&nbsp;</p>",
+      "question_name": "Fill in Multiple Blanks Question",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<p>Given the following variable declarations and initializations:</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kt\">int</span> <span class=\"n\">x</span> <span class=\"o\">=</span> <span class=\"mi\">24</span><span class=\"o\">;</span>\n<span class=\"kt\">int</span> <span class=\"n\">y</span> <span class=\"o\">=</span> <span class=\"mi\">5</span><span class=\"o\">;</span>\n<span class=\"kt\">double</span> <span class=\"n\">z</span> <span class=\"o\">=</span> <span class=\"mf\">21.0</span><span class=\"o\">;</span>\n</code></pre></div>\n<p>The expression <code>x / y</code> would return the value: [answer1]</p>\n\n<p>The expression <code>z / y</code> would return the value: [answer2]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
+          "id": 2623,
+          "text": "4",
           "comments": "",
-          "comments_html": "<p>Not quite. Be sure to review the <code>.gitignore</code> source for this question. You'll\nget it next time!</p>",
-          "text": "True",
-          "weight": 0,
-          "id": 3864
+          "comments_html": "<p>This is an example of integer division. Integer division is division in which\nthe decimal part is discarded. We can perform integer division when we have\ntwo <code>int</code> data types being divided.</p>",
+          "weight": 100.0,
+          "blank_id": "answer1"
         },
         {
+          "id": 4489,
+          "text": "4.2",
           "comments": "",
-          "comments_html": "",
-          "text": "False",
-          "weight": 100,
-          "id": 7280
+          "comments_html": "<p>This is an example of real division. If we want to perform real division, then\nat least one of the operands must be a <code>double</code> or float`.</p>",
+          "weight": 100.0,
+          "blank_id": "answer2"
         }
       ],
       "variables": null,
@@ -297,32 +343,68 @@
       "position": null,
       "question_name": "Matching Question",
       "question_type": "matching_question",
-      "question_text": "<p>Match the term with the correct description.</p>",
+      "question_text": "<p>Match the relational operator with the correct description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "2761",
-          "text": "Declarative Programming",
-          "left": "Declarative Programming",
-          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
+          "id": 6343,
+          "text": "==",
+          "left": "==",
+          "right": "Equal",
           "comments": "",
           "comments_html": "",
-          "match_id": 993
+          "match_id": 180
         },
         {
-          "id": "8275",
-          "text": "Imperative Programming",
-          "left": "Imperative Programming",
-          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
+          "id": 9298,
+          "text": "!=",
+          "left": "!=",
+          "right": "Not Equal",
           "comments": "",
           "comments_html": "",
-          "match_id": 3594
+          "match_id": 9115
+        },
+        {
+          "id": 9915,
+          "text": ">",
+          "left": ">",
+          "right": "Greater Than",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 6489
+        },
+        {
+          "id": 5491,
+          "text": "<",
+          "left": "<",
+          "right": "Less Than",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4569
+        },
+        {
+          "id": 3503,
+          "text": ">=",
+          "left": ">=",
+          "right": "Greater Than or Equal",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 6915
+        },
+        {
+          "id": 4475,
+          "text": "<=",
+          "left": "<=",
+          "right": "Less Than or Equal",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 3385
         }
       ],
       "variables": null,
@@ -331,19 +413,31 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 993
+          "text": "Equal",
+          "match_id": 180
         },
         {
-          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 3594
+          "text": "Not Equal",
+          "match_id": 9115
         },
         {
-          "text": "I don't know.",
-          "match_id": 3592
+          "text": "Greater Than",
+          "match_id": 6489
+        },
+        {
+          "text": "Less Than",
+          "match_id": 4569
+        },
+        {
+          "text": "Greater Than or Equal",
+          "match_id": 6915
+        },
+        {
+          "text": "Less Than or Equal",
+          "match_id": 3385
         }
       ],
-      "matching_answer_incorrect_matches": "I don't know."
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 304374,
@@ -351,64 +445,30 @@
       "quiz_group_id": null,
       "assessment_question_id": 524965,
       "position": null,
-      "question_name": "Multiple Dropdowns Question",
-      "question_type": "multiple_dropdowns_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">module</span> <span class=\"nn\">Talk</span>\n  <span class=\"k\">module</span> <span class=\"nn\">Phrases</span>\n    <span class=\"k\">def</span> <span class=\"nf\">hello</span>\n      <span class=\"s2\">\"Hello!\"</span>\n    <span class=\"k\">end</span>\n\n    <span class=\"k\">def</span> <span class=\"nf\">goodbye</span>\n      <span class=\"s2\">\"Good bye!\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">module</span> <span class=\"nn\">Teachers</span>\n    <span class=\"k\">def</span> <span class=\"nf\">teach</span>\n      <span class=\"s2\">\"Repeat after me.\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>The code sample above is an example of [a1] modules. To access the <code>Teachers</code>\nmodule to include it in a class, we would type include [a2].</p>",
+      "question_name": "True/False Question",
+      "question_type": "true_false_question",
+      "question_text": "<p>True or False: All operators are treated with the same priority when operations\nare sequenced.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4867,
-          "text": "namespaced",
           "comments": "",
-          "comments_html": "<p>Correct! Both <code>Teachers</code> and <code>Phrases</code> are namespaced inside of <code>Talk</code>. They\ncan be accessed using <code>::</code>.</p>",
-          "weight": 100.0,
-          "blank_id": "a1"
+          "comments_html": "",
+          "text": "False",
+          "weight": 100,
+          "id": 7362
         },
         {
-          "id": 9114,
-          "text": "subclass inherited",
           "comments": "",
-          "comments_html": "<p>There aren't any classes, nor any subclass inheritance, in the syntax above.\nYou might want to review the resource/s for this question.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 8327,
-          "text": "I don't know",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 2681,
-          "text": "Talk::Teachers",
-          "comments": "",
-          "comments_html": "<p>Correct! To <code>include</code> the <code>Teachers</code> module, we need to access it using <code>::</code>\non the module that contains it.</p>",
-          "weight": 100.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 453,
-          "text": "Teachers::Talk",
-          "comments": "",
-          "comments_html": "<p>When using <code>::</code> to access a nested module, we put the module that contains the\nother module on the left side of the double colon.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 5773,
-          "text": "Talk.Teachers",
-          "comments": "",
-          "comments_html": "<p>Not quite. This looks more like we're trying to call a method on <code>Talk</code>.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
+          "comments_html": "<p>Not quite. Java follows the order of operations precedence.</p>",
+          "text": "True",
+          "weight": 0,
+          "id": 5879
         }
       ],
       "variables": null,
@@ -424,32 +484,225 @@
       "quiz_group_id": null,
       "assessment_question_id": 524966,
       "position": null,
-      "question_name": "Fill in Multiple Blanks Question",
-      "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p>In order for Active Record to work, it is necessary to follow the naming\nconventions it is expecting. Specifically, the name of the class must be\n[answer1] and the name of the table must be [answer2].</p>",
+      "question_name": "True/False Question",
+      "question_type": "true_false_question",
+      "question_text": "<p>True or False: Expressions with relational operators will always return a\nboolean value.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/arithmetic-and-relational-operators?module_item_id=537114\">Review the Arithmetic and Relational Operators Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "3952",
-          "text": "singular",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer1"
+          "text": "True",
+          "weight": 100,
+          "id": 2434
         },
         {
-          "id": "7263",
-          "text": "plural",
           "comments": "",
           "comments_html": "",
+          "text": "False",
+          "weight": 0,
+          "id": 3249
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 304470,
+      "quiz_id": 44744,
+      "quiz_group_id": null,
+      "assessment_question_id": 524967,
+      "position": null,
+      "question_name": "Multiple Dropdowns Question",
+      "question_type": "multiple_dropdowns_question",
+      "question_text": "<p><code>17 + 6</code> is an example of [a1].</p>\n\n<p><code>int result = 17 + 6</code> is an example of [a2].</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/expressions-and-statements?module_item_id=537115\">Review the Expressions and Statements Lesson</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 1864,
+          "text": "an expression",
+          "comments": "",
+          "comments_html": "<p>Correct! Expressions are a combination of operators and variables that\nevaluate to a single value that has a data type.</p>",
           "weight": 100.0,
-          "blank_id": "answer2"
+          "blank_id": "a1"
+        },
+        {
+          "id": 3574,
+          "text": "a statement",
+          "comments": "",
+          "comments_html": "<p>Not quite. This is an expression. If we take this expression and assign it to\na variable, then it becomes a statement.</p>",
+          "weight": 0.0,
+          "blank_id": "a1"
+        },
+        {
+          "id": 3028,
+          "text": "a statement",
+          "comments": "",
+          "comments_html": "<p>Correct! Statements describe activities in a program that are intended to\nchange the state of the program.</p>",
+          "weight": 100.0,
+          "blank_id": "a2"
+        },
+        {
+          "id": 8448,
+          "text": "an expression",
+          "comments": "",
+          "comments_html": "<p>Not quite. This is a statement since it is changing the state of the variable,\n<code>result</code>. But <code>17 + 6</code> is an example of an expression.</p>",
+          "weight": 0.0,
+          "blank_id": "a2"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 304471,
+      "quiz_id": 44744,
+      "quiz_group_id": null,
+      "assessment_question_id": 524968,
+      "position": null,
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is the output of the following program?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"kt\">int</span> <span class=\"n\">firstNumber</span> <span class=\"o\">=</span> <span class=\"mi\">6</span><span class=\"o\">;</span>\n        <span class=\"kt\">int</span> <span class=\"n\">secondNumber</span> <span class=\"o\">=</span> <span class=\"mi\">3</span><span class=\"o\">;</span>\n\n        <span class=\"n\">firstNumber</span> <span class=\"o\">+=</span> <span class=\"n\">secondNumber</span><span class=\"o\">;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">firstNumber</span><span class=\"o\">);</span>\n        <span class=\"n\">firstNumber</span> <span class=\"o\">/=</span> <span class=\"n\">secondNumber</span><span class=\"o\">;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">firstNumber</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/compound-assignment-operators?module_item_id=537118\">Review the Compound Assignment Operators Lesson</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 2937,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>9\n3\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 4662,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>6\n6\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 2474,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>9\n2\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 304472,
+      "quiz_id": 44744,
+      "quiz_group_id": null,
+      "assessment_question_id": 524969,
+      "position": null,
+      "question_name": "Short Answer Question",
+      "question_type": "short_answer_question",
+      "question_text": "<p>What is the output of the following program?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">String</span> <span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"s\">\"Manny\"</span><span class=\"o\">;</span>\n    <span class=\"nc\">String</span> <span class=\"n\">breed</span> <span class=\"o\">=</span> <span class=\"s\">\"Chihuahua\"</span><span class=\"o\">;</span>\n    <span class=\"kt\">int</span> <span class=\"n\">age</span> <span class=\"o\">=</span> <span class=\"mi\">11</span><span class=\"o\">;</span>\n    <span class=\"nc\">String</span> <span class=\"n\">message</span> <span class=\"o\">=</span> <span class=\"s\">\"I have a dog named \"</span> <span class=\"o\">+</span> <span class=\"n\">dog</span> <span class=\"o\">+</span> <span class=\"s\">\". He is an \"</span> <span class=\"o\">+</span> <span class=\"n\">age</span> <span class=\"o\">+</span> <span class=\"s\">\" old \"</span> <span class=\"o\">+</span> <span class=\"n\">breed</span><span class=\"o\">;</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">message</span><span class=\"o\">);</span>\n  <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/combining-strings?module_item_id=537116\">Review the Combining Strings Lesson</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 6169,
+          "text": "I have a dog named Manny. He is an 11 old Chihuahua",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 304473,
+      "quiz_id": 44744,
+      "quiz_group_id": null,
+      "assessment_question_id": 524970,
+      "position": null,
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is the output of the following program?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"kt\">int</span> <span class=\"n\">firstNumber</span> <span class=\"o\">=</span> <span class=\"mi\">6</span><span class=\"o\">;</span>\n\n        <span class=\"n\">firstNumber</span><span class=\"o\">++;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">firstNumber</span><span class=\"o\">);</span>\n        <span class=\"n\">firstNumber</span><span class=\"o\">--;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">firstNumber</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/compound-assignment-operators?module_item_id=537118\">Review the Compound Assignment Operators Lesson</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 8337,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>6\n6\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 8833,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>7\n6\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3824,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>6\n5\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7712,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>7\n5\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
         }
       ],
       "variables": null,
